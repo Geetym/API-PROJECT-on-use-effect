@@ -17,9 +17,9 @@ console.log("hello")
       <Home />
 
       <p>{name} is {age} and i love {food}</p>
-      <button onClick={() => setName("GODSTIME")}> change name </button>
-      <button onClick={() => setAge("77")}> change age </button>
-      <button onClick={() => setFood("BEANS")}> change food </button>
+      <button className='w-64 ml-4 bg-black text-white' onClick={() => setName("GODSTIME")}> change name </button>
+      <button className='w-64 ml-4 bg-black text-white' onClick={() => setAge("77")}> change age </button>
+      <button className='w-64 ml-4 bg-black text-white' onClick={() => setFood("BEANS")}> change food </button>
     </div>
   )
 }
